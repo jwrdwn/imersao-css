@@ -1,0 +1,48 @@
+body {
+    background: #121214;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #e4e4e7;
+    height: 100vh;
+}
+
+.menu {
+    background-color: #202024;
+    padding: .05rem .05rem;
+    margin: 1rem;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.nav-link {
+    color: #8257E6;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    color: #e4e4e7;
+    cursor: pointer;
+    transform: scale(1.8);
+    font-weight: bold;
+}
+
+.site-title {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.site-subtitle {
+    padding: 0 2rem;
+    font-weight: 300;
+    text-align: center;
+    font-style: italic;
+}
