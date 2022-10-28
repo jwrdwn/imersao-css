@@ -1,14 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background: #121214;
+    background-color: #202024;
     font-family: 'Ubuntu Mono', monospace;
     color: #e4e4e7;
     height: 100vh;
 }
 
+header {
+    background: #121214;
+}
+
 .menu {
     background-color: #202024;
-    padding: .05rem .05rem;
-    margin: 1rem;
+    padding: 1rem;
 }
 
 .menu ul {
@@ -31,13 +40,25 @@ body {
 .nav-link:hover {
     color: #e4e4e7;
     cursor: pointer;
-    transform: scale(1.8);
     font-weight: bold;
 }
 
+.content {
+    border-radius: 1rem;
+    margin: .5rem;
+    background: #121214;
+    height: 100vh;
+}
+
 .site-title {
-    padding: 0 2rem;
+    padding: 2rem;
+    margin: 0 2rem;
     text-align: center;
+    transition: .4s;
+}
+
+.site-title:hover {
+    transform: scale(1.05);
 }
 
 .site-subtitle {
